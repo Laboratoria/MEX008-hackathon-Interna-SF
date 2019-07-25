@@ -1,96 +1,172 @@
-# "Hackathon" de final de _Common Core_, Salud Financiera
+# "FinLab"
+
+
+Planear y cuidar nuestros gastos es una herramienta para poder alcanzar nuestros sueños.
+
+
 
 ## Índice
 
-- [Preámbulo](#preámbulo)
-- [Resumen del proyecto](#resumen-del-proyecto)
-- [Consideraciones generales](#consideraciones-generales)
-- [Objetivos de aprendizaje](#objetivos-de-aprendizaje)
-- [Parte obligatoria](#parte-obligatoria)
-- [Consideraciones técnicas](#consideraciones-técnicas)
+- [Introducción](#introducción)
+- [Problemática](#problemática)
+- [Definición del Proyecto](#definición-del-proyecto)
+- [Benchmarketing](#benchmarketing)
+- [Lluvia de ideas](#lluvia-de-ideas)
+- [Heurísticas de usabilidad](#heurísticas-de-usabilidad)
+- [Prototipo de Baja fidelidad](#prototipo-de-baja-fidelidad)
+- [Prototipo de Alta fidelidad](#protoripo-de-alta-fidelidad)
+- [Importancia de la gestion de las finanzas](#importancia-de-la-gestion-de-las-fianzas)
+- [Recursos](#recursos)
+
+
 
 ---
+## Introducción
 
-## Preámbulo
+La importancia de las finanzas personales en tu vida. Planear y cuidar nuestros gastos es una herramienta para poder alcanzar nuestros sueños.
 
-Con la revolución de las fintech (“fin” finanzas, “tech” tecnología) se han desarrollado multitud de aplicaciones que han llegado para quedarse. La comodidad, la rapidez y su fácil uso son los atributos principales que hace de ellas un complemento fundamental para las operaciones financieras del día a día.
+Para esto hay algunas recomendaciones que puedes seguir:
 
-Para llevar una mejor gestión de las operaciones financieras, con la disrupción de la tecnología, se han creado diferentes aplicaciones fintech que te permiten realizar, controlar y planificar las diferentes actividades financieras que las personas desarrollan en su vida. 
+- Prioriza lo realmente importante.
+- Planifica para el futuro.
+- Toma las decisiones correctas.
 
-Al mismo tiempo, si bien existen muchas aplicaciones que ayudan a los usuarios a crear un Presupuesto mensual, existe todavía un hueco. No hay aplicaciones que ayuden y eduquen a las personas a planificar sus ingresos, gastos y ahorros con miras a un futuro tanto de corto como de mediano plazo, y para visualizar la mejor estabilidad financiera que podrá tener en su vida.
+Todo esto lo podras lograr con ayuda de nuestra Web app <FinLab>.
 
+
+
+
+## Problemática
+
+Desde el inicio en que tomamos la decisión de ser parte de Laboratoria, ingresando al bootcam, sabíamos que implicaría ser autodidacta y estudiante de tiempo completo. Además de esto, el tener una red de apoyo que financieramente nos ayudara, también formaba parte importante para pertenecer y permanecer a este proyecto.
+
+Es de nuestro conocimiento que tenemos compañeras que se prepararon para este periodo. Hay quienes ahorraron, o tenemos familia que nos ayuda o tenemos pequeñas actividades que nos retribuyen económicamente y ayudan a solventar una pequeña parte de nuestros gastos y necesidades.
+
+Por ello es que necesitamos tener una idea real de los gastos que se nos estarán presentando y de igual manera, corroborar si lo que presupuestamos, es suficiente para alcanzar a cubrir nuestra estancia en el bootcam.
 
 ![Ahorrar](https://media.giphy.com/media/l41YhVfr4kOzSBSMM/giphy.gif)
 
-## Resumen del proyecto
-
-Durante estos tres días crearás un producto que resuelve el problema de muchas de las estudiantes del Bootcamp de Laboratoria.
-
-Las estudiantes de Laboratoria sueñan con lograr su estabilidad y/o independencia financiera. Se podrá lograr con el tiempo con su nuevo sueldo como programadora o diseñadora de experiencia.  Pero, más allá de esperar un buen salario, pocas se han sentado a planificar cómo lograr sus metas financieras y proyectar cuándo lograrlas. 
-
-Al recibir una oferta de trabajo, las estudiantes/egresadas no tienen un producto que les guíe a saber lo que les quedará libre del salario ofrecido, ni tienen un producto que les guíe a planificar cómo usar ese dinero “libre” para ir construyendo su ruta hacia la independencia financiera.
 
 
-## Consideraciones generales
 
-- Este proyecto se debe resolver en equipos de hasta 4 personas.
-- Tiempo para completar el reto: 3 días.
-- Habrá dos presentaciones, una a la mitad de la _hackathon_ y otra al final.
-- Esta aplicación/web app que crearás va dirigido a estudiantes actuales de Laboratoria, pero podría ser usado también por egresadas de Laboratoria.
+## Definición del Proyecto
 
-## Objetivos de aprendizaje
+Nuestro proyecto está basado en desarrollar una web app donde nosotras como estudiantes de Laboratoria podamos satisfacer la necesidad de realizar un presupuesto para los próximos 6 meses, de manera que nos permita tener un panorama del monto que gastaremos durante este bootcam, tomando en cuenta nuestros gastos fijos, así como aquellos imprevistos o gastos extra que puedan surgir durante este periodo.
 
-- Enfrentarte a un reto de corta duración en el que pongas
-  en práctica todo lo aprendido hasta ahora.
-- Que sigas desarrollando tus habilidades de trabajo en equipo. Mientras más
-  personas en un equipo de trabajo, mayor complejidad para: tener un
-  entendimiento común, seguir el flujo de trabajo, buscar consensos, etc.
-- Que tú aprendas a planificar qué salario aceptar y cómo usar mejor ese dinero.
+Para esto hemos desarrollado a nuestro Userpersona de la siguiente manera:
 
-## Parte Obligatoria
+![Userpersona](ux\userpersona.png)
 
-- ## Consideraciones técnicas
 
-	- #### UX
-		- Todo el planeamiento del trabajo deberá ser detallado en un repositorio único
-		por _squad_ en el que se presente el _planning_
-		y las inspiraciones utilizadas para definir el producto. 
-		Además:
-		- El diseño visual de los componentes es de libre elección.
-		- Agregar en el readme análisis de heurísticas de usabilidad.
-		- Modelo de negocio.
-		- Agregar en el readme sketch y/o prototipo (alta fidelidad , baja fidelidad o navegable.)
-		- Agregar en el archivo _readme_, qué hizo cada una en el proyecto.
-		- Documentar la importancia de la gestion saludable de la finanzas.
 
-	- #### FE
-		- Tú y tu equipo construirán una web app que solucione una problemática.
-		- El producto deberá presentarse publicado en github pages o en alguna plataforma de _hosting_ ( [now](https://zeit.co/now), [firebase hosting](https://firebase.google.com/products/hosting/)).
-		- En este proyecto debe haber persistencia de los datos. Con lo anterior nos referimos a que si la usuaria ingresó  un dato, que ese dato se pueda visualizar aunque recargues la página.
-		- Pueden usar algún framework de CSS si así lo deciden.
+
+## Benchmarketing
+
+Durante la validación e investigación de comparacion de nuestro producto con la competencia se obtubo lo siguiente.
+
+![benchmarketing](ux\benchmarketing.png)
+
+
+
+
+## Lluvia de ideas
+
+Como parte de nuestro diseño de manera colaborativa desarrollamos la siguiente lluvia de ideas.
+
+- Que el usuario en la pantalla princial la usuarias puedan ingresar su nombre.
+
+- Las ususarias podran ingresar de manera manual y deacuerdo a sus necesidades la cantidad que deseen para su presupuesto.
+
+- Las usuarias puedad seleccionar los tipos de ingresos que tienen  durante un peridio mensual.
+
+- Las ususarias podran seleccionar que tipos de gastos son los que tienen colocando la cantidad en $ dentro de la casiila, y en caso de no contar con ese tipo de gasto solo tendra que colocar $ 0 en la casilla.
+
+- Que la web app pueda mostrar como restuldo la suma de todos sus ingresos.
+
+- Que la web app pueda mostar como resultado la suma de todos sus gastos.
+
+- Que como resultado preeliminar nos muestre la resta del total de nuestros gastos con nuestros ingresos.
+
+- Que ese resultado preeliminar se reste a nuestro presupuesto estimado y nos muestre una proyección del total a 6 meses.
+
+- Utilizar un diseño minimalista.
+
+- Nombre propuesto <FinLab>.
+
+- Que aaparezcan intrucciones objetivas y claras.
+
+- Poner un apartado donde el usuario pueda poner una imagen y/o pequeña descripción de meta de ahorro en un determinado plazo de tiempo.
+
+
+
+
+## Heurísticas de usabilidad.
+
+###  • Visibilidad del estado del sistema
+Nuestra aplicación permitirá al usuario tener una pantalla principal donde podrá ir navegando e ingresando su información.
+
+###  •	Relación entre el sistema y el mundo real
+Esta aplicación es muy sencilla de usar donde el usuario podrá personalizar su perfil, de acuerdo a sus necesidades.
+
+###  •	Control y libertad del usuario
+Nuestra aplicación tendrá la opción de que el usuario corrija o borre la información en dado caso necesario.
+
+###  •	Consistencia y estándares
+Contamos con un diseño.
+
+###  •	Prevención de errores y Ayudar a los usuarios a reconocer
+Estas dos heurísticas las cubriremos una aplicación amigable y sencilla. Asimismo, haremos testeos con usuarios que nos permitirán mejorar y optimizar la funcionalidad de la aplicación.
+
+###  •	Reconocimiento antes que recuerdo
+Contaremos con imágenes e instrucciones claras y precisas acerca del funcionamiento de la aplicación, que le permitirá a nuestro usuario tener un fácil acceso y uso.
+
+###  •	Flexibilidad y eficiencia de uso
+Los usuarios podrán ir explotando la herramienta conforme lo requieran sus necesidades de uso.
+
+###  •	Estética y diseño minimalista
+Diseñamos la aplicación de tal forma que solo contenga la información necesaria, así como un diseño amigable y llamativo
+
+###  •	Ayuda y documentación
+Contamos con links y recursos que le permitirán a nuestro usuario tener un panorama más amplio acerca de la importancia de una salud financiera, así como tipos para mejorar el control de gastos.	
+
+
+
+## Prototipo de Baja fidelidad.
+
+![Prototipo de Baja Fidelidad1](ux\bajaFidelidad1.jpeg)
+
+![Prototipo de Baja Fidelidad2](ux\bajaFidelidad2.jpeg)
+
+ 
+
+
+## Prototipo de Alta fidelidad.
+
+En base a nuestra investigación, lluvia de ideas, prototipo de baja fidelidad y testeo preelimininar es como llegamos al desarrollo de nuestro prototipo de alta fidelidad.
+
+![Prototipo de Alta Fidelidad1](ux\altafidelidad1.png)
+
+![Prototipo de Alta Fidelidad2](ux\altafidelidad2.png)
+
+[Prototipo de Alta fidelidad](https://www.figma.com/proto/M42qPmIWYcOJf2UtFUOPq8/Untitled?node-id=2%3A25&scaling=scale-down)
+
+
+
 	
-## Historias de Usuario.
-A continuación te dejamos unas historias de usuario que te podrán servir como guía en la construcción de tu web app.
+## Importancia de la gestion de las finanzas.
 
-- Yo como estudiante de Laboratoria que acabo de recibir una oferta de trabajo quiero poder realizar un presupuesto de mis gastos futuros y poder ahorrar un 10% de mi salario.
-- Yo como egresada de Laboratoria que me encuentro trabajando quiero poder realizar un presupuesto de mis gastos actuales, para en un futuro poder independizarme.
-- Yo como estudiante de Laboratoria quiero poder realizar un presupuesto de los próximos 6 meses para poder sobrellevar los gastos que realizaré durante el bootcamp.
+Una buena salud financiera implica contar con el dinero suficiente para cubrir gastos y tener suficientes ahorros para poder afrontar imprevistos en el futuro. Esa sería la óptima situación económica de una persona para considerar que financieramente está “sana”.
 
-Siéntete libre de agregar las historias de usuario que requieras.
+A continuación en el siguiente enlace encontraras consejos de la Conducef sobre los pasos a seguir para contar una buena salud financiera acompañado de nuestra <FinLab>.
 
-## Sobre las presentaciones
+[Salud financiera](https://www.condusef.gob.mx/Revista/index.php/usuario-inteligente/test/384-salud-financiera)
 
-- Habrá 2 presentaciones:
-	- Primer presentación será el día 24 de julio a partir de la 13:30.
-	- Segunda presentación será el día 25 de julio a partir de las 15:00.
-- Cada squad tendrá 3 minutos para presentar y 2 minutos para preguntas.
-- Las personas que presentan en la primera presentación no deben ser las mismas de la presentación final.
-- Solo podran presentar si cuentan con la liga de su proyecto, no podrán utilizar su propia computadora.
+
+
 
 ## Recursos
 
-- En el siguiente [Link](https://drive.google.com/drive/folders/1lnwTDlIavnUCHbAfFXS2jPNQKDlCAhRM?usp=sharing) podrás encontrar recursos para resolver el reto.
-- En el siguiente [link](https://www.nngroup.com/articles/persona/) podrás encontrar informacion para poder desarrollar el user persona. Te dejamos un ejemplo de [user persona](http://www.businessdesigntools.com/portfolio-items/persona-canvas/).
-- Te dejamos algunos links en donde puedes consultar framework de CSS ([Bootstrap](https://getbootstrap.com/), [Materialize](https://materializecss.com/), [foundations](https://foundation.zurb.com/) y un recurso en donde podrás ver otras opciones de [framework](https://scotch.io/bar-talk/6-popular-css-frameworks-to-use-in-2019)).
-- Para la persistencia de datos puedes investigar sobre [storage](https://developer.mozilla.org/en-US/docs/Web/API/Storage)
+- En el siguiente [Link](https://trello.com/b/YrDQx2z4) podrán la manera en que nos organizamos, y como es que nos dividimos el trabajo para poder resolver este reto.
+
+
 
