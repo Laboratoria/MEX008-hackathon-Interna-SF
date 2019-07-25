@@ -2,3 +2,173 @@
     font-family: "sofia";
     src: url(fonts/Sofia-Regular.ttf);
 }
+
+@font-face {
+    font-family: "nunito";
+    src: url(fonts/nunito-regular.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #00ADB5, #EEEEEE);
+    background-repeat: no-repeat;
+}
+
+
+header {
+    width: 100%;
+    margin: auto;
+    background-color: #303841;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  header nav ul {
+    overflow: hidden;
+    list-style: none;
+  }
+  
+  header nav ul li {
+    float: left;
+  }
+  
+  header nav ul li a {
+    color: #EEEEEE;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  h1 {
+      font-family: "Sofia";
+      color: #EEEEEE;
+
+  }
+
+  .navigation {
+font-family: "nunito";
+  }
+
+.budget {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    font-family: "nunito";
+    font-size: 150%;
+}
+
+.dataBudget {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.budgetNew {
+    font-family: "nunito";
+    font-size: 200%;
+}
+
+.newEntry, .newExpense {
+    height: 40px;
+    width: 30%;
+
+}
+
+#boxesBudget1, #boxesBudget2 {
+    width: 50%;
+    background-color: #ffbd39; /* modificar color*/
+}
+
+.box-part1, .box-part2 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.addEntry, .addExpense{
+    position: relative;
+    left: 80%;
+}
+
+.closeBtn1, .closeBtn2 {
+    width: 4%;
+    height: 4%;
+    position: relative;
+    left: 95%;
+}
+
+.hide {
+display:hide;
+}
+
+#modal-registro {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:transparent;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    font-family: "nunito";
+  }
+
+  .welcomeTitle {
+      font-family: "sofia";
+  }
+
+  .iconUser {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .passIcon {
+    width: 30px;
+    height: 30px;
+  }
+  .iconClose {
+    margin-left: 140%;
+  }
+  .user {
+    margin: 1rem;
+    padding: 1rem;
+  }
+  
+  .dataClient {
+    height: 30px;
+    border-radius: 20px;
+    background-color: #FFD460;
+    border-color: black;
+    align-items: center;
+  }
+  .log {
+      font-family: "nunito";
+    width: 100px;
+    height: 30px;
+    border: #FFD460;
+    background-color: #FF5722;
+  }
+  .here {
+    text-decoration: none;
+    color: #ff5722;
+  }
+  .lineUser {
+    border-top: 1px solid #ff5722;
+    width: 90%;
+  }
+  
+  .login-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .imgUser {
+    width: 150px;
+    height: 150px;
+  }
+  

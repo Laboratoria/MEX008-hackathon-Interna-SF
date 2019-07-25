@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,25 +8,97 @@
     <link rel="stylesheet" href="style.css">
     <title>CabLab</title>
 </head>
+
 <body>
     <header>
-        <nav></nav>
+        <h1>CapLab</h1>
+        <nav class="navigation">
+                <ul class="navBtn">
+                    <li><a href="#">Presupuesto</a></li>
+                    <li><a href="#">Metas de ahorro</a></li>
+                    <li><a href="#">Mis presupuestos</a></li>
+                    <li><a href="#">Reportes</a></li>
+                    <li><a href="#">Info de usuario</a></li>
+                </ul>
+            </nav>
     </header>
-    <section class="login"><!--login
-    -->
+
+    <section class="login" id="modal-registro">  
+        <h2 class="welcomeTitle">Bienvenido a Caplab</h2>
+            <figure class="user">
+                <img class="imgUser" src="img/usuario.png" alt="imagenusuario">
+            </figure> 
+            <hr class="lineUser"> <br> <br>
+            <div class="login-data">
+ <p>Nombre de Usuario</p><input class="dataClient" type="text" placeholder="  Username"> </div> <br>
+            <div> <p>Contraseña</p><input class="dataClient" type="text" placeholder="  Password"> 
+                <p>Confirma Contraseña</p><input class="dataClient" type="text" placeholder="  Confirm password">
+            </div> <br>
+               <button type="button" class="log">Subir</button> <br>
+               <p>¿Ya tienes cuenta?</p> <button type="button" class="log">Log In</button> <br>
+            </div>
+    </section>
+
+    <section class="budget">
+        <!--Hacer presupuesto-->
+        <h2 class="budgetNew"> Nuevo presupuesto</h2> <br><br>
+        <p>Semana <input type="number" max="52" min="1" class="inputWeek"> </p>
+        <p>Presupuesto Inicial: $<input type="text" class="input" placeholder="Ingrese Cantidad"></p> <br>
+        <div class="dataBudget">
+
+            <button type="button" class="newEntry" id="newEntry">Nuevo Ingreso</button>
+            <button type="button" class="newExpense" id="newExpense">Nuevo Gasto</button>  
+        </div>
+        <br>
+        <article id="boxesBudget1" class="hide">
+            <img class="closeBtn1" id="closeBtn1" src="img/delete-button.png">
+            <div class="box-part1">
+                <h3 class="titleDiv">Ingreso de dinero</h3>
+                <p>Concepto
+                    <select name="choices1" id="choices1" class="choi">
+                        <option value="deposit">Depósito</option>
+                        <option value="allowance">Mesada</option>
+                        <option value="remuneration">Remuneración</option>
+                        <option value="scholarship">Beca</option>
+                        <option value="others">Otros</option>
+                    </select> Cantidad $ <input type="text" class=""></p>
+            </div>
+            <button type="button" class="addEntry">Añadir ingreso</button>
+        </article>
+
+        <article id="boxesBudget2" class="hide">
+            <img class="closeBtn2" src="img/delete-button.png">
+            <div class="box-part2">
+                <h3 class="titleDiv">Gasto</h3>
+                <p>Concepto
+                    <select name="choices1" id="choices1" class="choi">
+                        <option value="purchases">Compras</option>
+                        <option value="transport">Transporte</option>
+                        <option value="debt">Pago de deuda</option>
+                        <option value="food">Comida</option>
+                        <option value="plain">Plan celular</option>
+                        <option value="services">Pago servicios</option>
+                        <option value="rent">Renta</option>
+                        <option value="other">Otros</option>
+                    </select> Cantidad $ <input type="text" class=""></p>
+            </div>
+            <button type="button" class="addExpense">Añadir gasto</button>
+        <br><br>
+        </article>
+
+        <div class="endSection">
+            <p>Total <input type="text" class="inputResult"></p>
+        </div>
+        <button type="button" class="saveBtn">Guardar</button>
+    </section>
+
+    <section class="savings goals">
+        <!--Metas de ahorro-->
 
     </section>
-    
-    <section class="budget"><!--Hacer presupuesto-->
 
-    </section>
-
-    <section class="savings goals"><!--Metas de ahorro-->
-
-    </section>
-
-    <section class="footer">
-        
-    <footer class="footer">footer</footer>
+    <footer class="footer"></footer>
+    <script src="script.js"></script>
 </body>
+
 </html>
