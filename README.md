@@ -1,3 +1,65 @@
+Web app -> "Journey Money" <-
+ 
+ ¿Porqué nos cuesta tanto ahorrar sí es tan fácil gastar?.
+
+ Todos hablan sobre la importancia de crear un presupuesto  personal, sin embargo, llevar ese control y hacerlo un hábito no es tan sencillo. 
+
+ En el ámbito financiero, carecemos de información, incluso, desconocemos términos "básicos" como: qué es un ingreso, qué es un gasto, qué es un egreso, etc. y si nos basamos, por ejemplo, en el artículo publicado por El Economista, nos menciona que: "aunque la mayor parte de las personas tiene una buena cultura general en tópicos referentes a futbol, en el ámbito de las finanzas personales carecen de conocimientos sobre algunos conceptos básicos."
+ A pesar de esto, las mujeres seguimos abriendo brecha también en el uso de apps financieras. Estamos demostrando mas compromiso y mayor interés en la administración de nuestros gastos, y por supuesto, de adquirir mayores conocimientos, en los que el bootcamp de Laboratoria hace fuerte presencia, ya que está transformando el ámbito tecnológico femenino. 
+ 
+ Con las chicas de Laboratoria, hemos realizado una encuesta para saber qué tanto conocen sobre sus gastos, utilizando la herramienta de google para hacer encuestas, con el objetivo de obtener informacion valiosa para desarrollar una web app que les ayude a este conocimiento.
+
+Gracias a la información obtenida, nos damos cuenta que el 66.7% de nuestras encuestadas, están conscientes de que tienen gastos, pero solamente un 16% lleva un registro de los mismos. Igualmente, un 41% le gustaría llevar sus gastos mensualmente, semanal y diario, ya que uno de sus mayores gastos son en renta y comida.
+
+
+ ![encuesta-parte-uno](https://github.com/MontseRV/MEX008-hackathon-Interna-SF/blob/master/img-readme/form-1.png)
+ ![encuesta-parte-dos](https://github.com/MontseRV/MEX008-hackathon-Interna-SF/blob/master/img-readme/form-2.png)
+
+
+De acuerdo a los resultados anteriores, nace "Journey Money", una web app que les ayudará a conocer en qué estan gastando, llevar un registro tipo "diario personal" y asi, ofrecer una educación financiera básica, dando tips y conceptos fáciles de entender.
+
+User persona / historia de usuario.
+ ![user-persona](https://github.com/silviatrinidad/MEX008-hackathon-Interna-SF/blob/branch-silvia/img-readme/user-persona.png)
+ Laura  tiene 28 años y es una estudiante de Laboratoria. Se ha preocupado por su situación económica en el Bootcamp, ya que vive sola y dejó su trabajo para estudiar estos 6 meses. Laura se ha preguntado ¿Cómo podría tener un control de sus gastos, para que su dinero le alcance hasta finalizar su Bootcamp? 
+Ya que no cuenta con otros ingresos más que los ahorros que junto antes de ingresar. Laura está consciente de que algunos de sus gastos mensuales;  sabe que sus mayores gastos están en el alquiler donde vive y la comida que consume. Se ha planteado algunas metas de ahorro pero no sabe cómo hacerlo; piensa que si llegara a conocer sus gastos podría cumplir su meta de ahorro. 
+![imagen-historia-usuario](https://github.com/silviatrinidad/MEX008-hackathon-Interna-SF/blob/branch-silvia/img-readme/historia-usuario.jpg)
+
+
+PLANING 1 sprint - El trabajo se dividió en tres: realizar investigación y definir producto (Silvia), desarrollar user persona e historia de usuario (Teresa) y prototipo (Rebeca y Montserrat).
+![planing](https://github.com/silviatrinidad/MEX008-hackathon-Interna-SF/blob/branch-silvia/img-readme/tablero-act.png)
+
+
+Modelo de negocioPara Journey Money  es muy importante que nuestros usuarios cumplan con sus objetivos de ahorro por eso en nuestra sección de ahorro les proponemos sugerencias de :
+   • Una suscripción de paga: donde encontrara presupuestos prediseñados para un control más completo . Con un tutorial guíado para un mejor uso.
+    ![imagen-presupuesto] (https://github.com/MontseRV/MEX008-hackathon-Interna-SF/blob/master/img-readme/ejemplo-presupuesto.png)
+   • Te aparecerá una pantalla donde podrás ingresar tu ingreso  y escoger si es por día, por semana o mes; para que aparezcan en la siguiente pantalla como ingresos netos.
+   • En nuestra pantalla principal se encuentran los ingresos netos, tus gastos totales y  el saldo con el que cuentas.
+     También la fecha del día y cuatro  secciones donde ingresaras tus movimientos por:
+            - Día
+            -Semana
+            -Mes
+   • Puedes escoger alguna de estas  tres primeras secciones y llenarlo de acuerdo a tus gastos, ejemplo:
+                        DÍA                    -Café       $15
+                    -Coca       $15
+                    -Taxi       $25
+                    Total       $55    En la sección de ahorro  se te desplegara un apartado donde puedes escoger la cantidad que has     decidido ahorra.¡Listo ahora puedes tener todo tus registros guardados para ver en que se te gastas  tu dinero y comenzar a ahorra!
+imecaf.comimecaf.com
+Curso de Finanzas Personales | Cursos Financieros
+Curso de Finanzas Personales - Aprende a realizar el análisis y diagnóstico de tu situación financiera actual, y a crear una filosofía de ahorro e inversión. ¡Inscríbete ya!
+bbva.mxbbva.mx
+Ahorro | BBVA México
+Comienza a ahorrar tu dinero de forma segura con BBVA. Descubre los productos que tenemos para ti según tus necesidades de ahorro.
+
+
+
+Fuentes consultadas.
+[El Economista](https://www.eleconomista.com.mx/finanzaspersonales/Mexicanos-saben-mas-de-futbol-que-sobre-finanzas-personales-20180619-0136.html) "Mexicanos saben mas de futbol que sobre finanzas personales",
+[idc Online mx](https://idconline.mx/finanzas/2019/04/11/apps-financieras-famosas-entre-las-mujeres) "Apps financieras famosas entre mujeres".
+
+
+--------------------------------------------------
+
+
 # "Hackathon" de final de _Common Core_, Salud Financiera
 
 ## Índice
@@ -9,7 +71,7 @@
 - [Parte obligatoria](#parte-obligatoria)
 - [Consideraciones técnicas](#consideraciones-técnicas)
 
----
+
 
 ## Preámbulo
 
